@@ -1,0 +1,25 @@
+p{
+    color: red;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: bisque;
+}
+
+*{
+    background-color: goldenrod;
+}
+
+video{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.para{
+    color: black;
+    background-color: white;
+}
+
+.group{
+    color:blueviolet;
+    background-color: white;
+}

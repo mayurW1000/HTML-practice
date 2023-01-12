@@ -1,0 +1,48 @@
+.form-field{
+    margin-bottom: 15px;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.title{
+    margin: 6px 0px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+
+.btn{
+    padding: 8px 8px;
+    color: white;
+    background-color: rgb(127, 45, 127);
+    border: 0px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: violet;
+}
+
+.btn:focus{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form-control{
+    width: 20%;
+    height: 25px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;   
+    border-radius: 3px;
+    background-color: white;
+}
+
+.form-control:focus{
+    outline: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+input[type="text"], input[type="email"], input[type="date"], input[type="tel"], input[type="month"]{
+    font-family: 'Lato', sans-serif;
+}

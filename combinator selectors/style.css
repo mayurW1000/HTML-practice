@@ -1,0 +1,54 @@
+/*decendant selectors
+.para-1 p{
+    color: red;
+}
+*/
+/*child selectors
+.start > p{
+    color:blue;
+}*/
+
+/*adjacent sibling selectors
+div + p{
+    color: blueviolet;
+}*/
+
+/*general sibling selectors
+div ~ p{
+    color: orangered;
+}*/
+
+/*pseudo class selectors("use for tmporary changes")*/
+.btn{
+    background-color: orange;
+    border: 0;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+
+.btn:hover{
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+
+.a-tag:visited{
+    color: blueviolet;
+}
+
+.a-tag:hover{
+    background-color: aquamarine;
+}
+
+.a-tag:active{
+    color: aqua;
+}
+
+/*pseudo element selectors("to change crtain part odf element")*/
+.para-1::first-letter{
+    color: red;
+}
+
+.para-1::before{
+    content: "---<>---";
+}

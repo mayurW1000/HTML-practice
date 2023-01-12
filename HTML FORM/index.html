@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML FORM</title>
+        <link rel="stylesheet" href="style.css">
+        <style> @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap'); </style>
+    </head>
+    <body>
+        <h1>New Connection Registration form</h1>
+        <form action="#" method="post">
+            <div class="form-field">
+                <div class="title">
+                    <label for="email">Email Address</label>
+                </div>
+                <input class="form-control" type="email" name="email" placeholder="xyz@gmail.com">
+            </div>
+            <div class="form-field">
+                <div class="title">
+                    <label for="mob">Mobile Number</label>
+                </div>
+                <input class="form-control" type="text" name="mob" pattern="^[6-9]\d{9}$" maxlength="10" required>
+            </div>
+            <div class="form-field">
+                <div class="title">
+                    <label for="fname">Full Name</label>
+                </div>
+                <input class="form-control" type="text" name="fname" placeholder="First name">
+                <input class="form-control" type="text" name="fname" placeholder="Last name">
+            </div>
+            <div class="form-field">
+                <div class="title">
+                    <label for="address">Address</label>
+                </div>
+                <input class="form-control" type="text" name="street" placeholder="street"> <br>
+                <input class="form-control" type="text" name="add" placeholder="Office, Suite, Apt." >
+            </div>
+            <div class="form-field">
+                <div class="title">
+                    <label for="city">City</label>
+                </div>
+                <input class="form-control" type="text" name="city">
+                <select name="state" id="state">
+                    <option value="haryana">haryana</option>
+                    <option value="maharashtra">maharashtra</option>
+                    <option value="uttar pradesh">Uttar Pradesh</option>
+                </select>
+                <input class="form-control" type="number" placeholder="zip" min="10000" max="1000000">
+            </div>
+            <div class="form-field">
+                <div class="title">
+                    <label for="radio">what technologies are you using?</label>
+                </div>
+                <input type="checkbox" name="net-1" value="2G">2G
+                <input type="checkbox" name="net-2" value="3G">3G
+                <input type="checkbox" name="net-3" value="4G">4G
+                <input type="checkbox" name="net-4" value="5G">5G
+            </div>
+            <div class="form-field">
+                <div class="title">
+                    <label for="data-use">how much data you use?</label>
+                </div>
+                <input type="radio" name="net"> 0-50MB
+                <input type="radio" name="net"> 50-150MB
+                <input type="radio" name="net"> 150-250MB
+                <input type="radio" name="net"> 250-500MB
+            </div>
+            <div class="form-field">
+                <div class="title">
+                    <label for="subscription">subscription duartion</label>
+                </div>
+                <input type="date" name="date" >
+                <input type="month" name="month">
+                <label for="to"> To </label>
+                <input type="date" name="date" >
+                <input type="month" name="month">
+            </div>
+
+            <div class="form-field">
+                <input class="btn" type="reset" value="Reset form">
+                <input class="btn" type="submit" value="Submit">
+            </div>
+
+        </form>
+    </body>
+</html>
